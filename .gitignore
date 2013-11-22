@@ -1,5 +1,39 @@
-# Compiled Python files
-*.pyc
+# Eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# SublimeText project files
+*.sublime-workspace
 
 # Folder view configuration files
 .DS_Store
@@ -12,3 +46,6 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Compiled Python files
+*.pyc
