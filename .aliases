@@ -18,6 +18,10 @@ alias j="jobs"
 # Apache shortcuts
 alias seelog="cd /var/log/apache2 && la"
 
+# Grunt shortcuts
+aliases grb="grunt build"
+aliases grdev="grunt dev"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
