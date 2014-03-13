@@ -43,3 +43,6 @@ fi
 
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
+
+# Makes Homebrew programs used before system-provided ones
+export PATH=/usr/local/bin:$PATH
