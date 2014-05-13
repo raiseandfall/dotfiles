@@ -28,6 +28,9 @@ alias grdev="grunt dev"
 # Delete non-empty folder
 alias deldir="rm -rf $1"
 
+# List serial ports
+alias serialports="ls /dev/tty.*"
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
