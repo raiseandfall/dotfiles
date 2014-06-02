@@ -13,7 +13,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
 alias ws="wstorm"
-alias ps="phpstorm"
+alias ps="pstorm"
 alias h="history"
 alias j="jobs"
 
