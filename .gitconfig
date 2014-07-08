@@ -16,7 +16,7 @@
 	# Pull origin develop
 	plod = pull origin develop
 	# Pull origin {branch}
-	po = pull origin 
+	plo = pull origin 
 	# Push origin develop
 	phod = push origin develop
 	# Push origin master
