@@ -21,6 +21,8 @@
 	phod = push origin develop
 	# Push origin master
 	phom = push origin master
+	# Remove files that have been deleted
+	rmd = rm $(git ls-files --deleted)
 	# Clone a repository including all submodules
 	c = clone --recursive
 	# Commit all changes
