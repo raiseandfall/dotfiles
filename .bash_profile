@@ -61,3 +61,6 @@ fi
 
 # Makes Homebrew programs used before system-provided ones
 export PATH=/usr/local/bin:$PATH
+
+# pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
