@@ -22,6 +22,9 @@ alias vm="ssh vagrant@127.0.0.1 -p 2222"
 
 alias ipy='ipython qtconsole --ConsoleWidget.font_family="Consolas" --ConsoleWidget.font_size=13'
 
+# Fuck
+alias fuck='$(thefuck $(fc -ln -1))'
+
 # Go to apache virtualhosts
 alias vhosts="cd /etc/apache2/virtualhosts && la"
 
