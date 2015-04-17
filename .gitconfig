@@ -26,6 +26,8 @@
 	phod = push origin develop
 	# Push origin master
 	phom = push origin master
+	# Merge develop on top of current branch
+	md = merge develop
 	# Remove files that have been deleted
 	rmd = "rm $(git ls-files --deleted)"
 
