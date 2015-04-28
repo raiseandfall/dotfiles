@@ -106,7 +106,7 @@ if has("autocmd")
 endif
 
 
-# Amix version
+" Amix version
 set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/vimrcs/basic.vim
