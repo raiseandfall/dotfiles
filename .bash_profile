@@ -64,3 +64,8 @@ export PATH=/usr/local/bin:$PATH
 
 # pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+# anybar
+function anybar { 
+    echo -n ( | nc -4u -w0 localhost ${2:-1738}; 
+})
