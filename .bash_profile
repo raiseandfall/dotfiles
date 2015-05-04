@@ -64,3 +64,6 @@ export PATH=/usr/local/bin:$PATH
 
 # pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+# SSH KEYS
+ssh-add ~/.ssh/github
