@@ -1,5 +1,0 @@
-export NVM_DIR=/Users/matthieu/.nvm
-
-export ANDROID_HOME=/Users/matthieu/Projects/system/android/android-sdk-macosx
-export PATH=${PATH}:$ANDROID_HOME/platforms:$ANDROID_HOME/tools
-

@@ -78,13 +78,28 @@ fi
 # export ARCHFLAGS="-arch x86_64"
 
 # Bash Profile (whatever)
-source ~/.bash_profile
+#source ~/.bash_profile
+
+###############################
+# STUFF FROM OLD BASH SETUP
+
+# Load RVM
+source ~/.rvm/scripts/rvm
+
+# NVM DIR
+export NVM_DIR=/Users/matthieu/.nvm
+
+# Exports
+source ~/.exports
 
 # Aliases
-#source ~/.aliases
+source ~/.aliases
 
 # Extra
-#source ~/.extra
+source ~/.extra
+
+# Functions
+source ~/.functions
 
 # tmuxinator
 source ~/.bin/tmuxinator.zsh
