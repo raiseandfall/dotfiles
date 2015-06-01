@@ -68,23 +68,23 @@ setopt CORRECT
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+else
+    export EDITOR='mvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# Bash Profile (whatever)
+source ~/.bash_profile
 
 # Aliases
-source ~/.aliases
+#source ~/.aliases
 
 # Extra
-source ~/.extra
+#source ~/.extra
 
 # tmuxinator
 source ~/.bin/tmuxinator.zsh
